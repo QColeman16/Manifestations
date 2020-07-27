@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Manifestations</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,11 +15,45 @@ body {font-family: "Open Sans"}
 
 <!-- Navigation bar with social media icons -->
 <div class="w3-bar w3-black w3-hide-small">
+    <a href="WelcomeIndex.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
     <a href="http://facebook.com/A1PaintForce/?ref=bookmarks" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
     <a href="http://www.instagram.com/moderndecor_manifestations/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/qudamah-coleman-9540a684/" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
-    <a href="Products.html" class="w3-bar-item w3-button w3-middle"><i class="Products"></i></a>
-    <a href="Services.html" class="w3-bar-item w3-button w3-middle"><i class="Services"></i></a>
-    <a href="Checkout.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-cart"></i></a>
+    <a href="Products.html" class="w3-bar-item w3-button w3-center">Products</i></a>
+    <a href="Services.html" class="w3-bar-item w3-button w3-center">Services</i></a>
+    <a href="Checkout.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-shopping-cart"></i></a>
   </div>
 <div class="w3-content" style="max-width:1600px"></div>
+
+<!-- Menu Modal -->
+<div id="services" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Interior Painting</h1>
+      </div>
+      <div class="w3-container">
+        <h5>One Bedroom <b>$82.50/each</b></h5>
+        <h5>Large Rooms <b>$100.00</b></h5>
+        <h5>Kitchen <b>$80.00</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Exterior Painting</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Vinyl/Brick Painting <b>$22.50/hr</b></h5>
+        <h5>Garage Painting <b>$22.50/hr</b></h5>
+        <h5>Fence Staining/Painting <b>$20.00/hr</b></h5>
+        <h5>Concrete Painting <b>$20.00/hr</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Custom Art</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Oil Painting Portrait <b>starting at 270.00</b></h5>
+        <h5>Acrylic Portrait Painting <b>starting at 220.00</b></h5>
+        <h5>Oil painting <b>starting at $164.00</b></h5>
+        <h5>Acrylic Painting <b>starting at $150.00</b></h5>
+      </div>
+    </div>
+  </div>
